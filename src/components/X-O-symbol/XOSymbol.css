@@ -1,0 +1,60 @@
+/*-- X O symbol styles --*/
+.xo-size-big {
+  --width: 36px;
+  --height: 36px;
+}
+.xo-size-small {
+  --width: 24px;
+  --height: 24px;
+}
+
+.xo-colors-light {
+  --x-color: #a8bec9;
+  --o-color: #a8bec9;
+  --o-span-color: #192a32;
+}
+.xo-colors-dark {
+  --x-color: #192a32;
+  --o-color: #192a32;
+  --o-span-color: #a8bec9;
+}
+.xo-colors {
+  --x-color: #5ac4c2;
+  --o-color: #f3b033;
+  --o-span-color: #192a32;
+}
+
+.x,
+.o {
+  width: var(--width);
+  height: var(--height); 
+  position: relative;
+}
+.o {
+  background-color: var(--o-color);  
+  border-radius: 50%;
+}
+.o span {
+  width: calc(var(--width) / 2.5);
+  height: calc(var(--height) / 2.5);
+  border-radius: 50%;
+  background-color: var(--o-span-color);
+}
+.x, 
+.x span,
+.o,
+.o span {
+  display: inline-block;
+}
+.x span {
+  width: 100%;
+  height: calc(var(--height) / 3);
+  background: var(--x-color); 
+  border-radius: 4px;
+}
+.x span:first-child {
+  transform:  translate(-50%, -50%) rotate(45deg);
+}
+.x span:last-child {
+  transform:  translate(-50%, -50%) rotate(-45deg);
+}
