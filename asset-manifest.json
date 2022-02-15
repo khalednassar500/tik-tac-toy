@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tik-tac-toy/static/css/main.f18a1aae.css",
+    "main.js": "/tik-tac-toy/static/js/main.b725c6aa.js",
+    "static/js/787.800d2b9a.chunk.js": "/tik-tac-toy/static/js/787.800d2b9a.chunk.js",
+    "index.html": "/tik-tac-toy/index.html",
+    "main.f18a1aae.css.map": "/tik-tac-toy/static/css/main.f18a1aae.css.map",
+    "main.b725c6aa.js.map": "/tik-tac-toy/static/js/main.b725c6aa.js.map",
+    "787.800d2b9a.chunk.js.map": "/tik-tac-toy/static/js/787.800d2b9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f18a1aae.css",
+    "static/js/main.b725c6aa.js"
+  ]
+}
