@@ -11,7 +11,7 @@ class Restart extends Component {
         <button 
           className='button-style light-button restart-toggle-button'
           onClick={() => this.setState({restartPage: true})}
-        >&</button>
+        >⟳</button>
         {this.state.restartPage && 
         <section className='restartPage center-flex'>
           <div>
